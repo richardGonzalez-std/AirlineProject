@@ -1,0 +1,7 @@
+{% extends "flights/layout.html" %}
+
+{% block body %}
+    {% for city in code %}
+        <li>{{city}}</li>
+    {% endfor %}
+{% endblock  %}
